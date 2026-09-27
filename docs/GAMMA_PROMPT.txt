@@ -1,0 +1,54 @@
+Create a polished, concise product website for EvalAxis, an independent AI evaluation beta by Sahil Dharmadhikari.
+
+Audience: small teams, AI implementation consultants and product leads building internal knowledge assistants or customer-support assistants.
+
+Positioning: compare assistant changes, inspect failures and document a human release review. Use a professional navy, white and electric-blue palette, readable typography and restrained graphics. Prioritise real screenshots if I upload them. Do not generate fake screenshots that imply unavailable functionality.
+
+Build these sections:
+
+1. Hero
+Title: See what changed. Decide what ships.
+Description: Compare baseline and candidate AI responses, investigate regressions and capture the evidence behind a release decision.
+Small badge: Independent beta.
+Primary button: Try the beta → LIVE_APP_URL
+Secondary button: View source → GITHUB_URL
+
+2. The problem
+A changed prompt can improve some answers while breaking others. EvalAxis brings examples, checks and human judgement into one review workflow.
+Do not invent market statistics or claim validated demand.
+
+3. How it works
+Step 1: Start with synthetic examples or upload a CSV of test cases and responses.
+Step 2: Compare required phrases, forbidden phrases, word limits, JSON formatting and source markers.
+Step 3: Inspect regressions and critical cases, then record a human Pass/Fail assessment with a reason.
+Step 4: Export a readable report and structured evidence.
+
+4. What is available now
+Public beta: prepared examples, CSV import, A/B comparison, explainable rule checks, human reviews and HTML/JSON/CSV exports.
+Optional private pilot: compare two prompt versions through a configured OpenAI API connection. Requires the owner's setup and incurs provider usage. Do not describe this as active on the public demo.
+Clearly state that prepared examples are hand-written illustrations, not model-performance benchmarks.
+
+5. What the results mean
+Passing a phrase, format or source-marker check does not prove factual accuracy or safety. Human review is part of the workflow. The release gate is a configurable-workflow prototype with fixed rules in this beta; it is not certification or permission to deploy.
+Do not use “hallucination detection”, “guaranteed safe”, “enterprise-ready”, “fully compliant” or accuracy percentages.
+
+6. Build with me
+Explain that Sahil is developing EvalAxis at the intersection of data quality, AI evaluation and product delivery, using AI-assisted development and documented testing.
+He is inviting feedback from teams testing knowledge assistants and looking for a small number of pilot conversations.
+Button: Contact the builder → LINKEDIN_URL
+Do not create a nonfunctional waitlist, email submission form, subscription checkout or login.
+
+7. Roadmap
+Now: public comparison and release-review beta.
+Next, subject to user feedback: private workspaces, durable run history and stronger usage controls.
+Later, subject to validation: calibrated semantic evaluations, retrieval testing and agent workflow evidence.
+Label all future features as planned, not available.
+
+8. Data and scope
+Use public or synthetic data only. Uploaded CSVs are processed by the companion app's server. Session work is temporary; users should download reports before leaving. Live pilot calls send selected questions, context and prompt instructions to the model provider. Do not claim local-only processing or zero data retention.
+
+Footer: EvalAxis · Independent beta by Sahil Dharmadhikari · Built with AI assistance.
+
+No fabricated customers, logos, testimonials, revenue, performance improvements, regulatory badges or “trusted by” sections. No trademark symbol. Use the supplied working name without claiming it is registered or uniquely available.
+
+Before publishing I will replace LIVE_APP_URL, GITHUB_URL and LINKEDIN_URL with my verified links and remove any remaining placeholders.
