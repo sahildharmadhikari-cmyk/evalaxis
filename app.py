@@ -12,9 +12,10 @@ from provider import run_response
 ROOT = Path(__file__).parent
 st.set_page_config(page_title="EvalAxis | AI release review", page_icon="◈", layout="wide")
 st.markdown("""<style>
-.block-container{max-width:1250px;padding-top:2rem;padding-bottom:3rem}
-h1{letter-spacing:-.045em;font-size:2.6rem}h2,h3{letter-spacing:-.025em}
-[data-testid="stMetric"]{border:1px solid #d4ddf0;border-radius:12px;padding:16px;background:#f8faff}
+.block-container{max-width:1250px;padding-top:4rem;padding-bottom:3rem}
+h1{color:inherit;letter-spacing:-.025em;font-size:clamp(2rem,4vw,2.6rem);line-height:1.3;overflow-wrap:break-word;padding-bottom:.5rem}
+h2,h3{color:inherit;letter-spacing:-.015em;line-height:1.35}
+[data-testid="stMetric"]{border:1px solid #d4ddf0;border-radius:12px;padding:16px;background:transparent}
 [data-testid="stMetricLabel"] p{font-size:1rem}
 .brand{color:#4361ee;font-size:.9rem;font-weight:700;letter-spacing:.14em}
 </style>""", unsafe_allow_html=True)
